@@ -15,7 +15,7 @@ st.markdown("<h1 style='text-align: center;'>Wikipedia Wordcloud Generator</h1>"
 
 phrase = st.text_input('Search Term', 'Wikipedia', help='Write here a word or phrase to be searched on Wikipedia')
 
-with st.spinner('Wait for it...'):
+with st.spinner('Loading...'):
     # plotting
     wcloud = cloud.get_cloud(phrase)
     image = py.figure(figsize=(20,10), facecolor='k')
