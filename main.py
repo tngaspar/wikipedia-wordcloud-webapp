@@ -3,7 +3,7 @@ import cloud
 import matplotlib.pyplot as py
 
 
-st.set_page_config(layout="wide", page_title="Wikipedia Wordcloud", page_icon="☁️")
+st.set_page_config(layout="wide", page_title="Wikipedia WordCloud", page_icon="☁️")
 
 # page setup
 st.markdown(""" <style>
@@ -11,7 +11,7 @@ st.markdown(""" <style>
 footer {visibility: hidden;}
 </style> """, unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align: center;'>Wikipedia Wordcloud Generator</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Wikipedia WordCloud Generator</h1>", unsafe_allow_html=True)
 
 phrase = st.text_input('Search Word or Phrase', 'Wikipedia', help='Write any word or phrase to be searched on Wikipedia')
 
