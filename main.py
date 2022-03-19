@@ -13,7 +13,7 @@ footer {visibility: hidden;}
 
 st.markdown("<h1 style='text-align: center;'>Wikipedia Wordcloud Generator</h1>", unsafe_allow_html=True)
 
-phrase = st.text_input('Search Term', 'Wikipedia', help='Write here a word or phrase to be searched on Wikipedia')
+phrase = st.text_input('Search a new word or phrase', 'Wikipedia', help='Here you can write any word or phrase to be searched on Wikipedia')
 
 with st.spinner('Loading...'):
     # plotting
