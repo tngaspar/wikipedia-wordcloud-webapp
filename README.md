@@ -1,8 +1,8 @@
-# Wikipedia Wordcloud Genreator
+# Wikipedia WordCloud Generator
 
 ## Overview
 
-A simple Web App built on Streamlit that generates a Wordcloud based on Wikipedia searches. Hosted on [Streamlit Cloud](https://streamlit.io/cloud).
+A simple Web App built on Streamlit that generates a WordCloud based on Wikipedia searches. Hosted on [Streamlit Cloud](https://streamlit.io/cloud).
 
 > Access it live [here](https://www.tgaspar.com/subpages/wikipedia-wordcloud)
 
