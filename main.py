@@ -11,7 +11,7 @@ st.markdown(""" <style>
 footer {visibility: hidden;}
 </style> """, unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align: center;'>Wikipedia Wordcloud Generator</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Wikipedia WordCloud Generator</h1>", unsafe_allow_html=True)
 
 phrase = st.text_input('Search Word or Phrase', 'Wikipedia', help='Write any word or phrase to be searched on Wikipedia')
 
