@@ -3,7 +3,7 @@ import cloud
 import matplotlib.pyplot as py
 
 
-st.set_page_config(layout="wide", page_title="Wikipedia Wordcloud", page_icon="☁️")
+st.set_page_config(layout="wide", page_title="Wikipedia WordCloud", page_icon="☁️")
 
 # page setup
 st.markdown(""" <style>
