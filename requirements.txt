@@ -2,3 +2,4 @@ matplotlib==3.5.1
 wikipedia===1.4.0
 wordcloud==1.8.1
 streamlit==1.7.0
+click==8
