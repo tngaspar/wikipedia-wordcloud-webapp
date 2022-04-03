@@ -18,11 +18,11 @@ def get_content(phrase):
         page = wikipedia.page(phrase, auto_suggest=False)
     except wikipedia.exceptions.DisambiguationError as e:
         page = wikipedia.page(e.options[0])
-    return page.content
+    return page.content, page.url
     
 @st.cache(show_spinner=False)
 def get_cloud(phrase):
-    content = get_content(phrase)
+    content, url = get_content(phrase)
     cloud = create_cloud(content)
-    return cloud
+    return cloud, url
 
