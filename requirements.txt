@@ -1,5 +1,5 @@
-matplotlib==3.5.1
+matplotlib==3.9.0
 wikipedia===1.4.0
-wordcloud==1.8.1
-streamlit==1.11.1
-click==8
+wordcloud==1.9.3
+streamlit==1.36.0
+click==8.1.7
