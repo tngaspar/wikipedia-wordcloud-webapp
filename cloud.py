@@ -20,7 +20,7 @@ def get_content(phrase):
         page = wikipedia.page(e.options[0])
     return page.content, page.url
     
-@st.cache(show_spinner=False)
+@st.cache_data(show_spinner=False)
 def get_cloud(phrase):
     content, url = get_content(phrase)
     cloud = create_cloud(content)
